@@ -1,0 +1,47 @@
+#cirTitle {
+  text-align: center;
+  font-size: 350%;
+}
+
+#cirDe {
+  text-align: center;
+  font-size: 250%;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+#cirD {
+  font-size: 90%;
+}
+
+.cirPhoto {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#cirA {
+  font-size: 90%;
+  float: left;
+  margin-left: 200px;
+}
+
+#cirC {
+  font-size: 90%;
+  float: right;
+  margin-right: 120px;
+}
+
+#cirArea {
+  font-size: 300%;
+  position: fixed;
+  top: 275px;
+  left: 200px;
+}
+
+#cirCir {
+  font-size: 300%;
+  position: fixed;
+  top: 275px;
+  right: 200px;
+}
