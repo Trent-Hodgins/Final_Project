@@ -8,7 +8,7 @@ let ind = true
 document.getElementById('trapButton').addEventListener('click', trapMultiplication)
 // This line is for making the code calculate once the button is clicked.//
 document.getElementById('index').addEventListener('click', index)
-// This line connects the Home button to the "Home" URL.//
+// This line connects the Home button to the index function.//
 
 
 function index () {
