@@ -1,0 +1,44 @@
+#rectImage {
+  position: fixed;
+  top: 75px;
+  right: 25px;
+}
+
+#rectTitle {
+  text-align: center;
+  font-size: 300%;
+}
+
+.rectVar {
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+}
+
+#rectL {
+  font-size: 150%;
+  position: fixed;
+  top: 175px;
+  left: 100px;
+}
+
+#rectB {
+  font-size: 150%;
+  position: fixed;
+  top: 230px;
+  left: 100px;
+}
+
+#rectH {
+  font-size: 150%;
+  position: fixed;
+  top: 280px;
+  left: 100px;
+}
+
+#rectButton {
+  font-size: 150%;
+  position: fixed;
+  left: 200px;
+  top: 500px;
+}

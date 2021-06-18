@@ -1,6 +1,6 @@
 document.getElementById('circle').addEventListener('click', circle)
 document.getElementById('trapezoid').addEventListener('click', trapezoid)
-document.getElementById('cube').addEventListener('click', cube)
+document.getElementById('rectangular').addEventListener('click', rectangular)
 let answer = true
 // The event listeners are for each of the different pages that my webage has. They link buttons to the different URLs of my website. So far there are three. This is because I have only set up three.//
 
@@ -18,10 +18,10 @@ function trapezoid () {
   }
 }
 
-function cube () {
-  answer = confirm('Cube')
+function rectangular () {
+  answer = confirm('Rectangular Prism')
   if (answer) {
-    window.location = 'https://finalproject.trenthodgins.repl.co/cube.html'
+    window.location = 'https://finalproject.trenthodgins.repl.co/rect.html'
   }
 }
 
