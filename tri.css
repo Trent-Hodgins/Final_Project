@@ -1,0 +1,64 @@
+.triPhoto {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#triTitle {
+  text-align: center;
+  font-size: 300%;
+}
+
+.triVar {
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+}
+
+#triB {
+  font-size: 95%;
+}
+
+#triH {
+  font-size: 95%;
+}
+
+#triA {
+  font-size: 95%;
+}
+
+#triAreaButton {
+  font-size: 150%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#triHeightButton {
+  font-size: 150%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#triArea {
+  font-size: 150%;
+}
+
+#triHeight {
+  font-size: 150%;
+}
+
+#triAreaWord {
+  font-size: 150%;
+  float: left;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+#triHeightWord {
+  font-size: 150%;
+  float: left;
+  margin-left: 50px;
+  margin-right: 10px;
+}

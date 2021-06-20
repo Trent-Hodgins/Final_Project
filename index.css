@@ -11,8 +11,26 @@
 
 #indPara {
   font-size: 150%;
+  text-align: center;
 }
 
-.indButtons {
+#circle {
+  font-size: 150%;
+  margin-left: 30%;
+}
+
+#trapezoid {
+  font-size: 150%;
+}
+
+#rectangular {
+  font-size: 150%;
+}
+
+#triangle {
+  font-size: 150%;
+}
+
+#cone {
   font-size: 150%;
 }
