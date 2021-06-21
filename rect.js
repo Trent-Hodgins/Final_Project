@@ -5,16 +5,16 @@ let rectArea = 0
 let rectVolume = 0
 // These make the variables that the program needs. This inculdes the length, base, height, area, and volume.//
 
-document.getElementById('rectButton').addEventListener('click', rectAreaMath)
-// This is for connecting the rectAreaMath function with the rectButton.//
+document.getElementById('rect-button').addEventListener('click', rectAreaMath)
+// This is for connecting the rect-area-math function with the rectButton.//
 
-document.getElementById('rectButton').addEventListener('click', rectAreaWord)
-// This is for connecting the rectAreaWord function with the rectButton.//
+document.getElementById('rect-button').addEventListener('click', rectAreaWord)
+// This is for connecting the rect-area-word function with the rectButton.//
 
-document.getElementById('rectButton').addEventListener('click', rectVolumeMath)
+document.getElementById('rect-button').addEventListener('click', rectVolumeMath)
 // This is for connecting the rectVolumeMath function with the rectButton.//
 
-document.getElementById('rectButton').addEventListener('click', rectVolumeWord)
+document.getElementById('rect-button').addEventListener('click', rectVolumeWord)
 // This is for connecting the rectVolumeWord function with the rectButton.//
 
 document.getElementById('index').addEventListener('click', index)
@@ -28,12 +28,12 @@ function index () {
 }
 // This is the function that makes the "Home" button ask the user if they want to go to the home page. If they click "OK" they are brought to the home page.//
 
-function rectAreaMath () {
-  rectL = document.getElementById('rectL').value
+function rect-area-math () {
+  rectL = document.getElementById('rect-l').value
 
-  rectB = document.getElementById('rectB').value
+  rectB = document.getElementById('rect-b').value
 
-  rectH = document.getElementById('rectH').value
+  rectH = document.getElementById('rect-h').value
 
   rectL = parseInt(rectL)
 
@@ -43,16 +43,16 @@ function rectAreaMath () {
 
   rectArea = (rectB * rectL + rectB * rectH + rectL * rectH) * 2
   
-  document.getElementById('rectArea').innerHTML = rectArea
+  document.getElementById('rect-area').innerHTML = rectArea
 }
 // This is the math that happends when the rectButton is pressed.//
 
 function rectVolumeMath () {
-  rectL = document.getElementById('rectL').value
+  rectL = document.getElementById('rect-l').value
 
-  rectB = document.getElementById('rectB').value
+  rectB = document.getElementById('rect-b').value
 
-  rectH = document.getElementById('rectH').value
+  rectH = document.getElementById('rect-h').value
 
   rectL = parseInt(rectL)
 
@@ -62,16 +62,16 @@ function rectVolumeMath () {
 
   rectVolume = rectL * rectB * rectH
   
-  document.getElementById('rectVolume').innerHTML = rectVolume
+  document.getElementById('rect-volume').innerHTML = rectVolume
 }
 // This is the math that happends when the rectButton is pressed.//
 
 function rectAreaWord () {
-  document.getElementById('rectAreaWord').innerHTML = 'Area = '
+  document.getElementById('rect-area-word').innerHTML = 'Area = '
 }
 // This function is for adding "Area = " before the area.//
 
 function rectVolumeWord () {
-  document.getElementById('rectVolumeWord').innerHTML = 'Volume = '
+  document.getElementById('rect-volume-word').innerHTML = 'Volume = '
 }
 // This function if forr adding "Volume = " before the volume.//

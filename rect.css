@@ -1,55 +1,55 @@
-#rectImage {
+#rect-image {
   position: fixed;
   top: 75px;
   right: 25px;
 }
 
-#rectTitle {
+#rect-title {
   text-align: center;
   font-size: 300%;
 }
 
-.rectVar {
+.rect-var {
   font-size: 150%;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 50px;
 }
 
-#rectL {
+#rect-l {
   font-size: 95%;
 }
 
-#rectB {
+#rect-b {
   font-size: 95%;
 }
 
-#rectH {
+#rect-h {
   font-size: 95%;
 }
 
-#rectButton {
+#rect-button {
   font-size: 150%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-#rectArea {
+#rect-area {
   font-size: 150%;
 }
 
-#rectVolume {
+#rect-volume {
   font-size: 150%;
 }
 
-#rectAreaWord {
+#rect-area-word {
   font-size: 150%;
   float: left;
   margin-left: 50px;
   margin-right: 10px;
 }
 
-#rectVolumeWord {
+#rect-volume-word {
   font-size: 150%;
   float: left;
   margin-left: 50px;

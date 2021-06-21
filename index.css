@@ -1,15 +1,15 @@
-.indPhoto {
+.ind-photo {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-#indHeading {
+#ind-heading {
   text-align: center;
   font-size: 350%;
 }
 
-#indPara {
+#ind-para {
   font-size: 150%;
   text-align: center;
 }

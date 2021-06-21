@@ -1,18 +1,18 @@
-#trapA {
+#trap-a {
   font-size: 150%;
   position: fixed;
   top: 180px;
   left: 100px;
 }
 
-#trapB {
+#trap-b {
   font-size: 150%;
   position: fixed;
   top: 275px;
   left: 100px;
 }
 
-#trapH {
+#trap-h {
   float: left;
   font-size: 150%;
   position: fixed;
@@ -20,31 +20,31 @@
   left: 100px;
 }
 
-.trapCenter {
+.trap-center {
   text-align: center;
   font-size: 300%;
 }
 
-.trapSize {
+.trap-size {
   font-size: 150%;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 50px;
 }
 
-#trapButton {
+#trap-button {
   font-size: 125%;
   position: fixed;
   top: 430px;
   left: 220px;
 }
 
-.trapPhoto {
+.trap-photo {
   position: fixed;
   top: 50px;
   right: 50px;
 }
 
-#trapEquation {
+#trap-equation {
   position: fixed;
   bottom: 225px;
   right: 200px;
@@ -52,7 +52,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-#trapAnswer {
+#trap-answer {
   font-size: 500%;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
