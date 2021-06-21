@@ -29,20 +29,20 @@ function index () {
 // This is the function that makes the "Home" button ask the user if they want to go to the home page. If they click "OK" they are brought to the home page.//
 
 function rectAreaMath () {
+  rectH = document.getElementById('rect-h').value
+
   rectL = document.getElementById('rect-l').value
 
   rectB = document.getElementById('rect-b').value
 
-  rectH = document.getElementById('rect-h').value
+  rectH = parseInt(rectH)
 
   rectL = parseInt(rectL)
 
   rectB = parseInt(rectB)
 
-  rectH = parseInt(rectH)
-
   rectArea = (rectB * rectL + rectB * rectH + rectL * rectH) * 2
-  
+
   document.getElementById('rect-area').innerHTML = rectArea
 }
 // This is the math that happends when the rectButton is pressed.//
@@ -61,7 +61,7 @@ function rectVolumeMath () {
   rectH = parseInt(rectH)
 
   rectVolume = rectL * rectB * rectH
-  
+
   document.getElementById('rect-volume').innerHTML = rectVolume
 }
 // This is the math that happends when the rectButton is pressed.//
