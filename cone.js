@@ -45,7 +45,7 @@ function coneRadiusMath () {
 
   coneH = parseInt(coneH)
 
-  coneRadius = Math.sqrt( 3 * (coneV / (Math.PI * coneH)))
+  coneRadius = Math.sqrt(3 * (coneV / (Math.PI * coneH)))
 
   document.getElementById('cone-radius').innerHTML = coneRadius
 }
