@@ -4,7 +4,7 @@ document.getElementById('rectangular').addEventListener('click', rectangular)
 document.getElementById('triangle').addEventListener('click', triangle)
 document.getElementById('cone').addEventListener('click', cone)
 let answer = true
-// The event listeners are for each of the different pages that my webage has. They link buttons to the different URLs of my website. So far there are four. Each page of my website is a different shape calculator.//
+// The event listeners are for each of the different pages that my webage has. They link buttons to the different URLs of my website. Each page of my website is a different shape calculator.//
 
 function circle () {
   answer = confirm('Circle')

@@ -7,16 +7,16 @@ let ind = true
 // These make the variables that the program needs. This inculdes the length, base, height, area, and volume.//
 
 document.getElementById('rect-button').addEventListener('click', rectAreaMath)
-// This is for connecting the rect-area-math function with the rectButton.//
+// This is for connecting the rectAreaMath function with the rect-button.//
 
 document.getElementById('rect-button').addEventListener('click', rectAreaWord)
-// This is for connecting the rect-area-word function with the rectButton.//
+// This is for connecting the rectAreaWord function with the rect-button.//
 
 document.getElementById('rect-button').addEventListener('click', rectVolumeMath)
-// This is for connecting the rectVolumeMath function with the rectButton.//
+// This is for connecting the rectVolumeMath function with the rect-button.//
 
 document.getElementById('rect-button').addEventListener('click', rectVolumeWord)
-// This is for connecting the rectVolumeWord function with the rectButton.//
+// This is for connecting the rectVolumeWord function with the rect-button.//
 
 document.getElementById('index').addEventListener('click', index)
 // This line connects the Home button to the index function.//
@@ -46,7 +46,7 @@ function rectAreaMath () {
 
   document.getElementById('rect-area').innerHTML = rectArea
 }
-// This is the math that happends when the rectButton is pressed.//
+// This is the math that happends for the area when the rect-button is pressed.//
 
 function rectVolumeMath () {
   rectL = document.getElementById('rect-l').value
@@ -65,7 +65,7 @@ function rectVolumeMath () {
 
   document.getElementById('rect-volume').innerHTML = rectVolume
 }
-// This is the math that happends when the rectButton is pressed.//
+// This is the math that happends for the volume when the rect-button is pressed.//
 
 function rectAreaWord () {
   document.getElementById('rect-area-word').innerHTML = 'Area = '
