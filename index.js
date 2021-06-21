@@ -2,8 +2,9 @@ document.getElementById('circle').addEventListener('click', circle)
 document.getElementById('trapezoid').addEventListener('click', trapezoid)
 document.getElementById('rectangular').addEventListener('click', rectangular)
 document.getElementById('triangle').addEventListener('click', triangle)
+document.getElementById('cone').addEventListener('click', cone)
 let answer = true
-// The event listeners are for each of the different pages that my webage has. They link buttons to the different URLs of my website. So far there are three. This is because I have only set up three.//
+// The event listeners are for each of the different pages that my webage has. They link buttons to the different URLs of my website. So far there are four. Each page of my website is a different shape calculator.//
 
 function circle () {
   answer = confirm('Circle')
@@ -33,4 +34,10 @@ function triangle () {
   }
 }
 
+function cone () {
+  answer = confirm('Cone')
+  if (answer) {
+    window.location = 'https://finalproject.trenthodgins.repl.co/cone.html'
+  }
+}
 // These functions are roughly the same. They each move the user to a different page of the website.//
