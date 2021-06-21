@@ -5,10 +5,10 @@ let cirArea = 0
 let ind = true
 // Let makes the variables.//
 
-document.getElementById('cirA').addEventListener('click', cirAr)
+document.getElementById('cir-a').addEventListener('click', cirAr)
 // This line connects the the Circle Area button to the right calculation.//
 
-document.getElementById('cirC').addEventListener('click', cirCi)
+document.getElementById('cir-c').addEventListener('click', cirCi)
 // This line connects the the Circumference button to the right calculation.//
 
 document.getElementById('index').addEventListener('click', index)
@@ -23,7 +23,7 @@ function index () {
 // This is the function that makes the "Home" button ask the user if they want to go to the home page. If they click "OK" they are brought to the home page.//
 
 function cirAr () {
-  cirD = document.getElementById('cirD').value
+  cirD = document.getElementById('cir-d').value
 
   cirArea = parseInt(cirArea)
 
@@ -31,12 +31,12 @@ function cirAr () {
 
   cirArea = quater * Math.PI * cirD * cirD
 
-  document.getElementById('cirArea').innerHTML = cirArea
+  document.getElementById('cir-area').innerHTML = cirArea
 }
 // These are for the equation and putting the answer on screen.//
 
 function cirCi () {
-  cirD = document.getElementById('cirD').value
+  cirD = document.getElementById('cir-d').value
 
   cirCir = parseInt(cirCir)
 
@@ -44,6 +44,6 @@ function cirCi () {
 
   cirCir = Math.PI * cirD
 
-  document.getElementById('cirCir').innerHTML = cirCir
+  document.getElementById('cir-cir').innerHTML = cirCir
 }
 // These are for the equation and putting the answer on screen.//

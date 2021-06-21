@@ -1,40 +1,40 @@
-.conePhoto {
+.cone-photo {
   position: fixed;
   top: 10px;
   right: 10px;
 }
 
-#coneTitle {
+#cone-title {
   text-align: center;
   font-size: 300%;
 }
 
-.coneVar {
+.conevar {
   font-size: 150%;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 50px;
 }
 
-#coneR {
+#cone-r {
   font-size: 95%;
 }
 
-#coneH {
+#cone-h {
   font-size: 95%;
 }
 
-#coneV {
+#cone-v {
   font-size: 95%;
 }
 
-#coneRadiusButton {
+#cone-radius-button {
   font-size: 150%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#coneHeightButton {
+#cone-height-button {
   font-size: 150%;
   display: block;
   margin-left: auto;
