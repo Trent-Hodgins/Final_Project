@@ -3,6 +3,7 @@ let rectB = 0
 let rectH = 0
 let rectArea = 0
 let rectVolume = 0
+let ind = true
 // These make the variables that the program needs. This inculdes the length, base, height, area, and volume.//
 
 document.getElementById('rect-button').addEventListener('click', rectAreaMath)
