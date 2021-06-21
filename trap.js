@@ -10,7 +10,6 @@ document.getElementById('trap-button').addEventListener('click', trapMultiplicat
 document.getElementById('index').addEventListener('click', index)
 // This line connects the Home button to the index function.//
 
-
 function index () {
   ind = confirm('Home')
   if (ind) {

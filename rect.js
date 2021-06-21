@@ -28,7 +28,7 @@ function index () {
 }
 // This is the function that makes the "Home" button ask the user if they want to go to the home page. If they click "OK" they are brought to the home page.//
 
-function rect-area-math () {
+function rectAreaMath () {
   rectL = document.getElementById('rect-l').value
 
   rectB = document.getElementById('rect-b').value

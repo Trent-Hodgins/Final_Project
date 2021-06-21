@@ -3,6 +3,7 @@ let triH = 0
 let triA = 0
 let triArea = 0
 let triHeight = 0
+let ind = true
 // These make the variables that the program needs. This inculdes the base, height, and area.//
 
 document.getElementById('tri-area-button').addEventListener('click', triAreaMath)
@@ -38,7 +39,7 @@ function triAreaMath () {
   triH = parseInt(triH)
 
   triArea = 0.5 * triB * triH
-  
+
   document.getElementById('tri-area').innerHTML = triArea
 }
 // This is the math that happends when the triAreaButton is pressed.//

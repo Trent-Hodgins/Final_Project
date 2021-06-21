@@ -15,8 +15,8 @@ document.getElementById('index').addEventListener('click', index)
 // This line connects the Home button to the index function.//
 
 function index () {
-    ind = confirm('Home')
-    if (ind) {
+  ind = confirm('Home')
+  if (ind) {
     window.location = 'https://finalproject.trenthodgins.repl.co/'
   }
 }
